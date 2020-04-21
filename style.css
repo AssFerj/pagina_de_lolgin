@@ -1,0 +1,81 @@
+/* -- Index -- */
+body {
+	font-family: roboto;
+	background-image: linear-gradient(to right, #3635E8, #389BFF)
+}
+a {
+	text-decoration: none;
+}
+img {
+	width: 180px;
+}
+input {
+	height: 20px;
+	padding: 0px 5px;
+	margin: 0 5px;
+	border-radius: 10px;
+	border-color: #3635E8;
+}
+button {
+	width: 80px;
+	border: none;
+	border-radius: 10px;
+	background-color: #3635E8;
+	padding: 5px;
+	color: #ffffff;
+}
+button:hover {
+	width: 80px;
+	border: none;
+	border-radius: 10px;
+	background-color: yellow;
+	padding: 5px;
+	color: #3635E8;
+}
+.box {
+	box-sizing: border-box;
+	width: 50%;
+	font-size: 16px;
+	text-align: center;
+	margin: 150px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	}
+.cadastro {
+	margin-top: 20px;
+}
+.cadastro a {
+	color: #3635E8;
+}
+.creditos a {
+	color: #3635E8;
+}
+.cadastro a:hover {
+	color: yellow;
+}
+.creditos a:hover {
+	color: yellow;
+}
+
+/* -- Cadastro -- */
+
+.box-cadastro {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 20px;
+	width: 550px;
+	margin: 60px auto;
+	padding: 50px;
+	background-color: #ffffff;
+}
+.form-cadastro {
+	margin: 5px;
+}
+.img-cadastro {
+	width: 100px;
+}
+.div-cadastro1 {
+	align-content: center;
+}
