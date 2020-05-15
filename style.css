@@ -35,13 +35,21 @@ button:hover {
 .box {
 	box-sizing: border-box;
 	width: 50%;
+	height: 400px;
 	font-size: 16px;
 	text-align: center;
-	margin: 150px auto;
+	margin: 25%;
 	padding: 20px;
 	background-color: #ffffff;
 	border-radius: 20px;
 	}
+.box h2 {
+	font-size: 45px;;
+	padding-top: 5%;
+}
+.box form {
+	padding-top: 20px;
+}
 .cadastro {
 	margin-top: 20px;
 }
@@ -65,10 +73,17 @@ button:hover {
 	justify-content: space-around;
 	align-items: center;
 	border-radius: 20px;
-	width: 550px;
-	margin: 60px auto;
-	padding: 50px;
+	width: 50%;
+	height: 400px;
+	margin: 15% auto;
+	padding: 20px;
 	background-color: #ffffff;
+}
+.box-cadastro h1 {
+	font-size: 45px;;
+}
+.box-cadastro p {
+	font-size: 20px;;
 }
 .form-cadastro {
 	margin: 5px;
