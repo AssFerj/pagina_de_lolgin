@@ -1,109 +1,88 @@
 /* -- Index -- */
+*{
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body {
 	font-family: roboto;
-	background-image: linear-gradient(to right, #3635E8, #389BFF)
+	background-image: linear-gradient(to right, #3635E8, #389BFF);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	color: #575757;
 }
-a {
+a{
 	text-decoration: none;
+	color: #3635E8;
 }
-img {
-	width: 180px;
+a:hover{
+	color: #e8dc35;
 }
-.form {
+section{
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box{
+	background-color: #ffffff;
+	padding: 10%;
+	border-radius: 10px;
+}
+h2{
+	font-size: 45px;
+	margin-bottom: 5%;
+	text-align: center;
+}
+h1{
+	margin-bottom: 5%;
+	text-align: center;
+}
+.form{
 	display: flex;
 	flex-direction: column;
+	margin: 2% 0;
 }
-.log-btn {
-	align-items: center;
-}
-input {
-	width: 550px;
-	height: 30px;
-	padding: 0px 5px;
-	margin: 5px;
-	border-radius: 5px;
+input{
+	text-align: center;
+	padding: 1%;
+	margin: 2% 0;
+	color: #575757;
 	border-color: #3635E8;
-	text-align: center;
-}
-button {
-	width: 80px;
-	height: 30px;
-	border: none;
 	border-radius: 5px;
+}
+button{
+	padding: 2%;
+	margin: 2% 0;
 	background-color: #3635E8;
-	padding: 5px;
 	color: #ffffff;
-}
-button:hover {
-	width: 80px;
 	border: none;
 	border-radius: 5px;
-	background-color: yellow;
-	padding: 5px;
+}button:hover{
+	background-color: #e8dc35;
 	color: #3635E8;
+	font-weight: 600;
+	transition: all .5s;
+	cursor: pointer;
 }
-.box {
-	box-sizing: border-box;
-	width: 50%;
-	font-size: 16px;
+.cadastro{
 	text-align: center;
-	margin: 25vh 50vh;
-	padding: 50px;
-	background-color: #ffffff;
-	border-radius: 10px;
-	}
-.box h2 {
-	font-size: 45px;;
-	padding-top: 5%;
+	margin: 2% 0;
 }
-.box form {
-	padding-top: 20px;
+.creditos{
+	text-align: center;
+	margin: 2% 0;
 }
-.cadastro {
-	margin-top: 20px;
-}
-.cadastro a {
-	color: #3635E8;
-}
-.creditos a {
-	color: #3635E8;
-}
-.cadastro a:hover {
-	color: yellow;
-}
-.creditos a:hover {
-	color: yellow;
+.creditos p{
+	font-size: 12px;
 }
 
-/* -- Cadastro -- */
+/* Cadastro */
 
-.box-cadastro {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	border-radius: 20px;
-	width: 130vh;
-	height: 400px;
-	margin: 15% auto;
-	padding: 20px;
-	background-color: #ffffff;
-}
-.box-cadastro h1 {
-	font-size: 45px;
-	margin-top: -20px;
-	padding: 5px;
-}
-.box-cadastro p {
-	font-size: 20px;
-	margin-top: -20px;
-	padding: 5px;
-}
-.form-cadastro {
-	margin: 5px;
-}
-.img-cadastro {
-	width: 100px;
-}
-.div-cadastro1 {
-	align-content: center;
+.input{
+	width: 50%;
 }
